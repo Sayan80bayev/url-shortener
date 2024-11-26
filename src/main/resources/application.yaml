@@ -4,8 +4,8 @@ spring:
   rabbitmq:
     host: localhost
     port: 5672
-    username: my_user
-    password: my_password
+    username: guest
+    password: guest
   validation:
     url-regex: '^(https?|ftp):\/\/((([A-Za-z0-9-]+\.)+[A-Za-z]{2,6})|localhost)(:\d+)?(\/[^\s]*)?$'
   datasource:

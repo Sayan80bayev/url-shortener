@@ -13,7 +13,7 @@ import org.springframework.stereotype.Service;
 @RequiredArgsConstructor
 public class MessageConsumerImpl implements MessageConsumer {
 
-    @Value("base.url")
+    @Value("${base.url}")
     private String baseUrl;
 
     private final UrlService urlService;
